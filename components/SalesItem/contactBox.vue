@@ -1,0 +1,51 @@
+<template>
+	<view class="box">
+		<view class="title">{{types==1?'车抵贷':(types==2?'信用贷':(types==3?'房抵贷':'项目投融贷'))}}</view>
+		<image class="contImg"  :src="types==1?'../../static/imgs/carImg/cont.png':(types==2?'../../static/imgs/carImg/cont2.png':(types==3?'../../static/imgs/carImg/cont3.png':'../../static/imgs/carImg/cont4.png'))" mode="aspectFit"></image>
+		<view class="title2">{{types==1?'车主贷优势：':(types==2?'信用贷优势：':(types==3?'房抵贷优势':'项目投融贷优势'))}}</view>
+		<view class="contTxt">{{types==1?'效率高、快至1天放款；不押车、不装GPS；用途广，合法消费及经营：':(types==2?'无抵押、无担保、利率低、额度高、材料简单、当天放款：':(types==3?'还款方式灵活，先息后本、等额本息任你挑选，随借随还':'解决企业资金困难问题，对目标资金的满足程度较高，可以吸引大量资金的流入，对项目的快速发展有很大的帮助'))}}
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		props:{
+			types:String,
+			default:''
+		},
+		data() {
+			return {
+				
+			};
+		}
+	}
+</script>
+
+<style lang="scss" scoped>
+	.box{
+		padding: 40upx 48upx 80upx 48upx;
+		background: #fff;
+		border-radius: 15upx;
+		text-align: center;
+		.title{
+			text-align: center;
+			width: 100%;font-size: 36upx;
+			color:#000000;
+		}
+		.contImg{
+			width: 100%;
+			height: 300upx;
+			margin-top: 40upx;
+		}
+		.title2,.contTxt{
+			
+			font-size:30upx;
+			color:#355C7D;
+			line-height: 58upx;
+		}
+		.title2{
+			margin-top: 40upx;
+		}
+	}
+</style>

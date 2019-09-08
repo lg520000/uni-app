@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "优惠详情",
+  "usingComponents": {
+    "title-box": "/components/SalesItem/titleBox",
+    "contact-box": "/components/SalesItem/contactBox",
+    "troduce-box": "/components/SalesItem/troduceBox"
+  }
+}

@@ -1,0 +1,89 @@
+{
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式（list 的索引项）
+		"list": [{
+			// "path": "pages/index/index", //启动页面，必选
+			"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+		}]
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/qutlit/qutlit",
+			"style": {
+				"navigationBarTitleText": "昊廷盛世金服"
+			}
+		}, {
+			"path": "pages/Mine/Mine",
+			"style": {
+				"navigationBarTitleText": "昊廷中心"
+			}
+		},
+		{
+			"path": "pages/qutlit/qutlit3",
+			"style": {
+				"navigationBarTitleText": "昊廷盛世金服"
+			}
+		},
+		{
+			"path": "pages/Login/Login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/Ticekets/Ticekets",
+			"style": {
+				"navigationBarTitleText": "优惠券"
+			}
+		},
+		{
+			"path": "pages/SaleTypes/SaleTypes",
+			"style": {
+				"navigationBarTitleText": "我要申请"
+			}
+		},
+		{
+			"path": "pages/qutlit/qutlit2",
+			"style": {
+				"navigationBarTitleText": "资格评估"
+			}
+		},
+		{
+			"path": "pages/SaleAct/SaleAct",
+			"style": {
+				"navigationBarTitleText": "我要申请"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "昊廷盛世金服",
+		"navigationBarBackgroundColor": "#F1D35E",
+		"backgroundColor": "#F1D35E"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#F1D35E",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/qutlit/qutlit",
+				"iconPath": "static/index-0.png",
+				"selectedIconPath": "static/index-1.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/SaleTypes/SaleTypes",
+				"iconPath": "static/tag-0.png",
+				"selectedIconPath": "static/tag-1.png",
+				"text": "我要申请"
+			},
+			{
+				"pagePath": "pages/Mine/Mine",
+				"iconPath": "static/center-0.png",
+				"selectedIconPath": "static/center-1.png",
+				"text": "昊廷中心"
+			}
+		]
+	}
+}

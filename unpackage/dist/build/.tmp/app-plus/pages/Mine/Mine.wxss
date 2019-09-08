@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.pages.data-v-5da6e34a {
+  background: #f5f5f5;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.content.data-v-5da6e34a {
+  background: #F1D35E;
+  text-align: center;
+  height: 400rpx;
+}
+.content .avater.data-v-5da6e34a {
+    padding: 24rpx;
+    height: 90rpx;
+}
+.content .avater image.data-v-5da6e34a {
+      height: 90rpx;
+      width: 90rpx;
+      float: left;
+}
+.content .avater text.data-v-5da6e34a {
+      float: left;
+      margin-left: 20rpx;
+      font-size: 24rpx;
+      color: #fff;
+      line-height: 90rpx;
+}
+.content video.data-v-5da6e34a {
+    width: 100%;
+    border-radius: 20rpx;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.content .videoBox.data-v-5da6e34a {
+    height: 400rpx;
+    width: calc(100% - 48rpx);
+    padding: 0 24rpx;
+    border-radius: 20rpx;
+    overflow: hidden;
+}
+.content image.data-v-5da6e34a {
+    height: 100%;
+    width: 100%;
+}
+.item.data-v-5da6e34a {
+  background: #fff;
+  border-radius: 15rpx;
+  margin: 10rpx 24rpx;
+  width: calc(100% - 48rpx);
+  text-align: left;
+}
+.item .title.data-v-5da6e34a {
+    font-size: 24rpx;
+    color: #666666;
+    padding: 20rpx;
+    border-bottom: 1rpx solid #E6E6E6;
+}
+.item .txt.data-v-5da6e34a {
+    padding: 20rpx;
+    height: 35rpx;
+    width: calc(100% - 40rpx);
+}
+.item .txt image.data-v-5da6e34a {
+      float: left;
+      height: 35rpx;
+      width: 35rpx;
+}
+.item .txt text.data-v-5da6e34a {
+      white-space: nowrap;
+      overflow-x: scroll;
+      float: left;
+      line-height: 35rpx;
+      margin-left: 20rpx;
+      width: calc(100% - 55rpx);
+      font-size: 24rpx;
+      color: #666666;
+}
+
